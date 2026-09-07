@@ -36,3 +36,7 @@
 .like-button::after {
   background-color: blue;
 }
+
+.share-button::after {
+  background-color: green;
+}
