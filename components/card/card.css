@@ -1,0 +1,48 @@
+.card-container {
+  display: flex;
+  gap: 16px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.35s;
+}
+
+.card-thumbnail {
+  width: 100%;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
+.card-header h1 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.card-header p {
+  margin: 0;
+}
+
+.card-content {
+  padding: 12px;
+}
+
+.card-content p {
+  margin: 0;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background-color: rgb(104, 25, 25);
+  color: white;
+}
